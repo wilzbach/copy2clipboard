@@ -1,0 +1,22 @@
+{
+  "name": "copy2clipboard",
+  "version": "1.0.0",
+  "description": "HTML5 safe way to allow CTRL-C",
+  "main": "lib/clipboard",
+  "scripts": {
+    "build": "browserify -r ./:copy2clipboard -g uglifyify -o dist/browser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/greenify/copy2clipboard"
+  },
+  "keywords": [
+    "clipboard"
+  ],
+  "author": "greenify ",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "uglifyify": "^3.0.1"
+  }
+}
