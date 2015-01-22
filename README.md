@@ -26,7 +26,7 @@ clip.set("fancy clipboard"); // set any content
 Test it
 -------
 
-
+[Click here](https://cdn.rawgit.com/greenify/copy2clipboard/master/test.html).
 
 License
 -------
